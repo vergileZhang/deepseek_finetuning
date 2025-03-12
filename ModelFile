@@ -1,0 +1,16 @@
+FROM /home/finetuning/deepseek-finetuning/1.5b/03/deepseek-1.5b-finetuned-q4.gguf
+
+TEMPLATE """
+{{ if .System }}<|system|>
+{{ .System }}</s>{{ end }}
+
+<|user|>
+{{ .Prompt }}</s>
+
+<|assistant|>
+{{ .Response }}
+"""
+
+SYSTEM "You are a helpful assistant."
+PARAMETER temperature 0.7
+PARAMETER repeat_penalty 1.2
