@@ -137,7 +137,6 @@ if __name__ == "__main__":
         "--base_model_path",
         type=str,
         help="Path to the base model to be finetned.",
-        default="/home/model/DeepSeek-R1-Distill-Qwen-1.5B",
     )
     parser.add_argument(
         "--dataset_path",
@@ -159,7 +158,6 @@ if __name__ == "__main__":
         "--mergemodel_path",
         help="Path to the folder where the merged model will be saved.",
         type=str,
-        default="/home/finetuning/deepseek-finetuning/1.5b/04",
     )
     
     args = parser.parse_args()
