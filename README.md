@@ -121,13 +121,16 @@ ollama run your_model_name
 ```
 
 
-![@4@BC_E6L`ARLSLNS6A9B}K](https://github.com/user-attachments/assets/c093740e-2e40-4cd1-afc9-837aee101c3a)
+
 
 
 ## 📚 参考文档
 > https://github.com/JohnYehyo/DeepSeek-R1-Distill-fine-tuning
+> 
 > https://blog.csdn.net/FL1623863129/article/details/137763836
+> 
 > https://blog.csdn.net/spiderwower/article/details/138755776
+> 
 > https://blog.csdn.net/spiderwower/article/details/138506271
 
 
