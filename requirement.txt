@@ -1,0 +1,7 @@
+pip install transformers==4.35.2
+pip install peft==0.4.0
+pip install datasets==2.10.1
+pip install accelerate==0.20.3
+pip install tiktoken
+pip install transformers_stream_generator
+pip install bitsandbytes==0.41.1
