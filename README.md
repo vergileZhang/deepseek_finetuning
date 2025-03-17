@@ -41,11 +41,6 @@ pip install -r requirements.txt
 ```
 
 ## 🛠️ 微调流程
-### 1. 数据预处理
-
-
-
-### 2. 执行微调
 ```bash
 python train.py \
 --base_model_path /path/to/your/base_model \
@@ -54,7 +49,7 @@ python train.py \
 --model_path /path/to/save/finetuned_model
 ```
 
-#### 参数说明
+### 参数说明
 | 参数 | 说明 |
 |------|----------|
 | `--base_model_path` | 原始存放包含`.safetensors`文件的模型目录 |
@@ -97,7 +92,7 @@ python convert_hf_to_gguf.py /path/to/save/finetuned_model --outfile /path/to/sa
 
 
 ## 📦 OLLAMA部署
-### Modelfile
+### 创建Modelfile
 创建Modelfile文件，内容如下：
 ```dockerfile
 FROM /path/to/save/quantized_GGUF
