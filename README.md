@@ -120,6 +120,12 @@ ollama create your_model_name -f path/to/Modelfile
 ollama run your_model_name
 ```
 
+### 微调前后对比
+
+![image](https://github.com/user-attachments/assets/8dab2c8b-4202-4c86-a631-c9c9ff1c227d)
+
+![image](https://github.com/user-attachments/assets/118e840b-5c16-48d9-bfc3-9abd96318c64)
+![image](https://github.com/user-attachments/assets/3d85d841-9abc-4a7a-bf17-5a9496cf74d3)
 
 
 
