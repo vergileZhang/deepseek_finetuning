@@ -18,7 +18,7 @@ cd deepseek_finetuning
 pip install -r requirements.txt
 ```
 
-### llama.cpp编译（原始命令）
+### llama.cpp编译
 llama.cpp 是一个专注于在边缘设备、个人PC上进行llm部署的高性能推理框架。
 ```bash
 git clone https://github.com/ggerganov/llama.cpp 
