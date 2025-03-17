@@ -121,6 +121,7 @@ ollama run your_model_name
 ```
 
 
+![@4@BC_E6L`ARLSLNS6A9B}K](https://github.com/user-attachments/assets/c093740e-2e40-4cd1-afc9-837aee101c3a)
 
 
 ## 📚 参考文档
