@@ -3,12 +3,6 @@
 
 # DeepSeek-R1 全流程微调指南
 
-- [快速开始](#🚀快速开始)
-- [环境配置](#L21)
-- [微调流程](#🗜️模型量化)
-- [模型量化](#模型量化)
-
-
 
 ## 🚀 快速开始
 本代码包以微调deepseekr1-1.5b为例
@@ -19,7 +13,7 @@ cd deepseek_finetuning
 
 
 ## 🔧 环境配置
-### 原始依赖安装
+### 原始依赖安装（默认已安装torch等基础包）
 ```bash
 pip install -r requirements.txt
 ```
@@ -48,13 +42,8 @@ pip install -r requirements.txt
 
 ## 🛠️ 微调流程
 ### 1. 数据预处理
-```bash
-# 保持原始处理流程不变
-# 数据集格式要求：
-# - 500条法律问答
-# - JSON格式
-# - 包含prompt/response字段
-```
+
+
 
 ### 2. 执行微调
 ```bash
@@ -66,13 +55,12 @@ python train.py \
 ```
 
 #### 参数说明
-| 参数 | 原始说明 |
+| 参数 | 说明 |
 |------|----------|
 | `--base_model_path` | 原始存放包含`.safetensors`文件的模型目录 |
 | `--dataset_path` | 微调数据集存放路径 | 
 | `--lora_adapter_path` | 微调产生的低秩矩阵参数，而非完整的模型权重 |
 | `--model_path` | 微调后的完整参数保存路径 |
-
 
 ## 🗜️ 模型量化
 ### 转GGUF
