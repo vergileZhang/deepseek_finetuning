@@ -95,7 +95,7 @@ python convert_hf_to_gguf.py /path/to/save/finetuned_model --outfile /path/to/sa
 ### 创建Modelfile
 创建Modelfile文件，内容如下：
 ```dockerfile
-FROM /path/to/save/quantized_GGUF
+FROM /path/to/save/your_model-***.gguf
     
 TEMPLATE """
 {{ if .System }}<|system|>
@@ -124,7 +124,9 @@ ollama run your_model_name
 
 
 ## 📚 参考文档
-> Blockquote
-> 原始参考文献和引用说明
+> https://github.com/JohnYehyo/DeepSeek-R1-Distill-fine-tuning
+> https://blog.csdn.net/FL1623863129/article/details/137763836
+> https://blog.csdn.net/spiderwower/article/details/138755776
+> https://blog.csdn.net/spiderwower/article/details/138506271
 
 
